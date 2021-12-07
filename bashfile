@@ -1,0 +1,8 @@
+node {
+      stage('checkout') {
+           git 'git2
+}
+stage('run script') {
+   sh"./say_hello.sh"
+}
+}
